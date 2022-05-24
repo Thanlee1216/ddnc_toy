@@ -1,6 +1,5 @@
 package com.ddnc.toy.config;
 
-import com.ddnc.toy.config.security.WebSecurityConfig;
 import com.navercorp.lucy.security.xss.servletfilter.XssEscapeServletFilter;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
@@ -30,7 +29,6 @@ public class WebWebInitializer extends AbstractAnnotationConfigDispatcherServlet
     @Override
     public void onStartup(ServletContext servletContext)
             throws ServletException {
-
         CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter("UTF-8");
         characterEncodingFilter.setForceEncoding(true);
         FilterRegistration.Dynamic encodingFilter = servletContext.addFilter("encodingFilter", characterEncodingFilter);
