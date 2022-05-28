@@ -49,7 +49,7 @@
 <div class="container-xxl position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href="/" class="navbar-brand p-0">
-            <h1 class="m-0">MoCa</h1>
+            <h1 class="m-0">DDNC</h1>
             <!-- <img src="img/logo.png" alt="Logo"> -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -57,9 +57,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="/service" class="nav-item nav-link">시작하기</a>
-                <a href="/service" class="nav-item nav-link">고객센터</a>
-<%--                <div class="nav-item dropdown">--%>
+                <a href="#" class="nav-item nav-link">ABOUT</a>
+                <a href="#" class="nav-item nav-link">SHOPPING</a>
+                <a href="#" class="nav-item nav-link">LOOKBOOK</a>
+                <a href="#" class="nav-item nav-link">COMMUNITY</a>
+
+    <%--                <div class="nav-item dropdown">--%>
 <%--                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>--%>
 <%--                    <div class="dropdown-menu m-0">--%>
 <%--                        <a href="team.html" class="dropdown-item">Our Team</a>--%>

@@ -19,7 +19,7 @@
     <c:if test="${activeProfile[0] == 'prod'}">
     </c:if>
 
-    <title>아스타 웹</title>
+    <title>DDNC 쇼핑몰</title>
     <link rel="canonical" href="https://www.xxxx.co.kr/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -51,7 +51,10 @@
 
     <!-- Template Stylesheet -->
     <link href="/resources/css/style.css" rel="stylesheet">
-</head>
+    <link href="/resources/css/flexslider.css" rel="stylesheet">
+    <link href="/resources/css/test.css" rel="stylesheet">
+
+    </head>
 <body>
 
 
